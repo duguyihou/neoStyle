@@ -2,8 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "react-native start --reset-cache",
-    "lint": "eslint .",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "lint": "eslint --fix '**/*.{ts,tsx}'"
   },
   "dependencies": {
     "react": "18.2.0",
