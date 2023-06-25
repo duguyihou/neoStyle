@@ -1,4 +1,4 @@
-// import {PropsWithChildren} from 'react';
+import {PropsWithChildren} from 'react';
 import {BaseTheme, Dimensions} from '../theme';
 import {ImageStyle, StyleProp, TextStyle, ViewStyle} from 'react-native';
 import {AllProps} from '../style';
