@@ -24,6 +24,5 @@
     "react-test-renderer": "18.2.0",
     "typescript": "4.8.4"
   },
-  "packageManager": "pnpm@7.15.0",
   "name": "neostyle"
 }
