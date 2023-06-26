@@ -1,13 +1,16 @@
 {
   "private": true,
   "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "pnpm run build",
     "dev": "react-native start --reset-cache",
     "lint": "eslint --fix '**/*.{ts,tsx}'"
   },
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.72.0",
-    "stable-hash": "^0.0.3"
+    "stable-hash": "^0.0.3",
+    "tsup": "^7.1.0"
   },
   "devDependencies": {
     "@react-native/eslint-config": "^0.72.2",
