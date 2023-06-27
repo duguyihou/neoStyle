@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  neostyle:
+    specifier: ^0.1.3
+    version: 0.1.3(@babel/core@7.20.2)(@babel/preset-env@7.20.2)(react-test-renderer@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -5102,6 +5105,22 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
+  /neostyle@0.1.3(@babel/core@7.20.2)(@babel/preset-env@7.20.2)(react-test-renderer@18.2.0):
+    resolution: {integrity: sha512-RwMs5x+WlqCuLPo86iNtoUNzgwmz1Dn5y3s2w3KRbrz7KZFfjizIdzcN6pQYuvONKOVadWNtzmMgR+StIjHIrg==}
+    dependencies:
+      react: 18.2.0
+      react-native: 0.72.0(@babel/core@7.20.2)(@babel/preset-env@7.20.2)(react-test-renderer@18.2.0)(react@18.2.0)
+      stable-hash: 0.0.3
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@babel/preset-env'
+      - bufferutil
+      - encoding
+      - react-test-renderer
+      - supports-color
+      - utf-8-validate
+    dev: false
+
   /nocache@3.0.4:
     resolution: {integrity: sha512-WDD0bdg9mbq6F4mRxEYcPWwfA1vxd0mrvKOyxI7Xj/atfRHVeutzuWByG//jfm4uPzp0y4Kj051EORCBSQMycw==}
     engines: {node: '>=12.0.0'}
@@ -5909,6 +5928,10 @@ packages:
 
   /sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
+
+  /stable-hash@0.0.3:
+    resolution: {integrity: sha512-c63fvNCQ7ip1wBfPv54MflMA5L6OE5J0p6Fg13IpKft4JAFoNal8+s/jtJ8PibrwqXm4onnbeQsADs8k0NQGUA==}
+    dev: false
 
   /stack-utils@2.0.6:
     resolution: {integrity: sha512-XlkWvfIm6RmsWtNJx+uqtKLS8eqFbxUg0ZzLXqY0caEy9l7hruX8IpiDnjsLavoBgqCCR71TqWO8MaXYheJ3RQ==}
