@@ -1,8 +1,8 @@
 {
   "name": "neostyle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a small tool to write styles for react native",
-  "author": "kong",
+  "author": "duguyihou",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.js",
@@ -34,6 +34,7 @@
     "@types/react-test-renderer": "^18.0.0",
     "eslint": "^8.19.0",
     "jest": "^29.2.1",
+    "metro-react-native-babel-preset": "^0.76.7",
     "prettier": "^2.4.1",
     "react-test-renderer": "18.2.0",
     "tsup": "^7.1.0",
