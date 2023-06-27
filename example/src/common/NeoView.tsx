@@ -1,7 +1,7 @@
 import {View, StyleProp, ViewStyle} from 'react-native';
 import React, {PropsWithChildren} from 'react';
 import {bg, BgProps, compose, useStyle} from 'neostyle';
-import {Theme} from './theme';
+import {Theme} from '../theme';
 
 type StyleProps = BgProps<Theme> & {
   style?: StyleProp<ViewStyle>;
