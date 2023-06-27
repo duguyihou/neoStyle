@@ -7,7 +7,10 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <Text>Home</Text>
-      <NeoView bg={{sm: 'primaryBg', md: 'secondaryBg'}} style={viewSize} />
+      <NeoView
+        bg={{sm: 'primaryBg', md: 'secondaryBg', lg: 'tertiaryBg'}}
+        style={viewSize}
+      />
       <NeoView bg={'secondaryBg'} style={viewSize} />
     </View>
   );
