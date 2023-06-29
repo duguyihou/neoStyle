@@ -1,12 +1,14 @@
 import {View, StyleProp, ViewStyle} from 'react-native';
 import React, {PropsWithChildren} from 'react';
-import {bg, BgProps, compose, useStyle} from 'neostyle';
+import {bg, BgProps, compose, layout, LayoutProps, useStyle} from 'neostyle';
 import {Theme} from '../theme';
 
-type StyleProps = BgProps<Theme> & {
+type StyleProps = {
   style?: StyleProp<ViewStyle>;
-};
-const styleParser = compose<Theme, StyleProps>([bg]);
+} & BgProps<Theme> &
+  LayoutProps<Theme>;
+
+const styleParser = compose<Theme, StyleProps>([bg, layout]);
 
 type Props = PropsWithChildren<StyleProps>;
 

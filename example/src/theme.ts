@@ -13,10 +13,11 @@ const theme = createTheme({
   colors: {
     primaryBg: palette.grey,
     secondaryBg: palette.red,
+    tertiaryBg: palette.yellow,
   },
   breakpoints: {
-    sm: 0,
-    md: 450,
+    sm: 375,
+    md: 425,
     lg: 768,
     xl: 1024,
   },
