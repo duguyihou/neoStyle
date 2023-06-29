@@ -1,6 +1,6 @@
 {
   "name": "neostyle",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "a small tool to write styles for react native",
   "author": "duguyihou",
   "main": "dist/index.js",
