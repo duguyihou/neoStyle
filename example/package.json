@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "neostyle": "^0.1.4",
+    "neostyle": "^0.1.5",
     "react": "18.2.0",
     "react-native": "0.72.0"
   },

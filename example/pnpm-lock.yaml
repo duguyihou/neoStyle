@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   neostyle:
-    specifier: ^0.1.4
-    version: 0.1.4(@babel/core@7.22.5)(@babel/preset-env@7.22.5)(react-test-renderer@18.2.0)
+    specifier: ^0.1.5
+    version: 0.1.5(@babel/core@7.22.5)(@babel/preset-env@7.22.5)(react-test-renderer@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -5166,8 +5166,8 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
-  /neostyle@0.1.4(@babel/core@7.22.5)(@babel/preset-env@7.22.5)(react-test-renderer@18.2.0):
-    resolution: {integrity: sha512-OxnTPJFM9Qkctg2vYXePjYBdYJjzpsVtvMNndYUpX9fXCBjhnxAO/847UYGesn+qJXXoSJcwox4YjmHCD5TRJA==}
+  /neostyle@0.1.5(@babel/core@7.22.5)(@babel/preset-env@7.22.5)(react-test-renderer@18.2.0):
+    resolution: {integrity: sha512-awmCy99SscE2BIggGL8P2fLXwJsahAe0xLX+mcVh270WKGZnUZXykf+R7I+Hk+plQslTlFrSjr3waEqwDShGlg==}
     dependencies:
       react: 18.2.0
       react-native: 0.72.0(@babel/core@7.22.5)(@babel/preset-env@7.22.5)(react-test-renderer@18.2.0)(react@18.2.0)
