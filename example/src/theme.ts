@@ -21,6 +21,16 @@ const theme = createTheme({
     lg: 768,
     xl: 1024,
   },
+  spacing: {
+    s1: 4,
+    s2: 8,
+    s3: 12,
+  },
+  borderRadii: {
+    b1: 10,
+    b2: 20,
+    b3: 30,
+  },
 });
 
 export type Theme = typeof theme;

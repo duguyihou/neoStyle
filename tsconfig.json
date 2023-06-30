@@ -5,18 +5,25 @@
     "esModuleInterop": true,
     "isolatedModules": false,
     "jsx": "react",
-    "lib": ["es6", "ES7", "ESNext"],
+    "lib": ["ES6","ES2015", "ES2016", "ES2017", "ES2018", "ES2019"],
     "noUnusedParameters": true,
     "declaration": true,
     "noUnusedLocals": true,
     "moduleResolution": "node",
     "strict": true,
-    "target": "es5",
+    "target": "ES5",
     "skipLibCheck": true,
     "outDir": "./dist",
     "baseUrl": "./src",
-    "rootDir": "./src",
+    "rootDir": "./src"
   },
   "include": ["./src/**/*.ts", "./src/**/*.tsx"],
-  "exclude": ["node_modules", "**/*.test.ts", "**/*.test.tsx"]
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ]
 }
