@@ -1,7 +1,7 @@
 {
   "name": "neostyle",
   "version": "0.1.8",
-  "description": "a small tool to write styles for react native",
+  "description": "responsive styles for react native",
   "author": "duguyihou",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

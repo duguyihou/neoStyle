@@ -14,8 +14,7 @@
     "target": "ES5",
     "skipLibCheck": true,
     "outDir": "./dist",
-    "baseUrl": "neostyle",
-    "rootDir": "neostyle"
+    "baseUrl": "packages/neostyle",
   },
   "include": ["./**/*.ts", "./**/*.tsx"]
 }
