@@ -11,7 +11,7 @@
     "noUnusedLocals": true,
     "moduleResolution": "node",
     "strict": true,
-    "target": "ES5",
+    "target": "ESNext",
     "skipLibCheck": true,
     "outDir": "./dist",
     "baseUrl": "packages/neostyle",
